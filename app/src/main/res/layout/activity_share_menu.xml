@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal"
+              android:padding="5dp">
+    <RelativeLayout style="@style/BottomTabStyle">
+
+        <ImageView
+            android:id="@+id/btn_share_weixinmoments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/ic_share_weixin_moments"/>
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/BottomTabStyle">
+
+        <ImageView
+            android:id="@+id/btn_share_weixinhy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/ic_share_weixin"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/BottomTabStyle">
+
+        <ImageView
+            android:id="@+id/btn_share_qqhy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/ic_share_qq"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/BottomTabStyle">
+
+        <ImageView
+            android:id="@+id/btn_share_qqzone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/ic_share_qq_zone"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/BottomTabStyle">
+
+        <ImageView
+            android:id="@+id/btn_share_sina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/ic_share_sina"/>
+
+    </RelativeLayout>
+</LinearLayout>

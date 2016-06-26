@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SOSTV</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="guide_button">直接进入</string>
+    <string name="btn_home">首页</string>
+    <string name="btn_explore">发现</string>
+    <string name="btn_community">书籍</string>
+    <string name="btn_myself">我的</string>
+    <string name="title_activity_home">最新推荐</string>
+    <string name="title_activity_explore">发 现</string>
+    <string name="title_activity_community">社 区</string>
+    <string name="title_activity_myself">我 的</string>
+    <string name="btn_zb">礼拜直播</string>
+    <string name="btn_cb">礼拜重播</string>
+    <string name="btn_xl">系列讲座</string>
+    <string name="title_zxtj">最新推荐</string>
+    <string name="video_home_title">礼拜视频</string>
+
+    <string name="blank">\u3000\u3000</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="teamName">微光工作室</string>
+    <string name="videoHome">礼拜视频</string>
+    <string name="whiteBook">预言之灵</string>
+    <string name="feedBack">意见反馈</string>
+    <string name="lifeBook">现代真理丛书</string>
+    <string name="aboutUs">关于我们</string>
+
+    <string name="comment_count">%d 条评论</string>
+    <string name="all_people">所有内置用户</string>
+    <string name="recent_news">最近一周文章</string>
+    <string name="days_ago">%d 天前</string>
+    <string name="like_count">%d 人赞</string>
+    <string name="post_count" translatable="false">%d 人收藏</string>
+
+    <string name="submit">提交</string>
+    <string name="commentStr">评论</string>
+    <string name="writeCommentStr">点评</string>
+    <string name="shareStr">分享</string>
+    <string name="collectStr">收藏</string>
+    <string name="dianzan">点赞</string>
+    <string name="introFlagTitle">简介</string>
+    <string name="recommendFlagTitle">相关推荐</string>
+    <string name="commentFlagTitle">用户评论</string>
+    <string name="desc_shrinkup">收起</string>
+    <string name="desc_spread">更多...</string>
+    <string name="feedBackDesc">写下问题和建议，我们将为您不断改进</string>
+    <string name="reminder">请先登录</string>
+    <string name="beginRead">开始阅读</string>
+    <string name="shoucBook">收藏</string>
+    <string name="title_activity_content">ContentActivity</string>
+    <string name="loadMore">加载更多...</string>
+
+    <string name="idtxthint">用户名/邮箱</string>
+    <string name="pwdtxthint">密码</string>
+    <string name="loginbtntext">登录</string>
+    <string name="forgot_pwd">忘记密码？</string>
+    <string name="btn_share_weixinmoments_str">朋友圈</string>
+    <string name="btn_share_weixinhy_str">微信好友</string>
+    <string name="btn_share_qqhy_str">QQ好友</string>
+    <string name="btn_share_qqzone_str">QQ空间</string>
+    <string name="btn_share_sina_str">新浪微博</string>
+</resources>

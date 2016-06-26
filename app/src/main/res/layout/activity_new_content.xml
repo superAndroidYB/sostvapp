@@ -1,0 +1,218 @@
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/main_frame"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBarLayout"
+        style="@style/FitSystemWindows"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:theme="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <activity.sostv.com.widght.ReboundScrollView
+            android:id="@+id/sl_content"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/contentTitle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <io.bxbxbai.common.view.CircularLoadingView
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="@dimen/loading_view_size"
+                        android:layout_height="@dimen/loading_view_size"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center"
+                        android:id="@+id/v_loading"/>
+
+                    <ImageView
+                        android:id="@+id/content_imageview"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dip"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/video_image_test"/>
+
+                    <TextView
+                        android:id="@+id/tvContentTitle"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@id/content_imageview"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginLeft="15dp"
+                        android:ellipsize="end"
+                        android:maxLines="2"
+                        android:textColor="@color/white"
+                        android:textSize="25sp"/>
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/contentTitle"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/subheading"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="2"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"/>
+
+                    <TextView
+                        android:id="@+id/contentBody"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:lineSpacingExtra="5dp"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+            </RelativeLayout>
+        </activity.sostv.com.widght.ReboundScrollView>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="bottom"
+            android:orientation="horizontal"
+            app:layout_behavior="activity.sostv.com.widght.ContentViewBehavior">
+
+            <RelativeLayout
+                android:id="@+id/rl_btn_comment"
+                style="@style/OperBtnStyle">
+
+                <ImageView
+                    android:id="@+id/btn_writeComment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:src="@mipmap/write_common_btn"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/btn_writeComment"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/writeCommentStr"
+                    android:textSize="10dip"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_btn_dianzan"
+                style="@style/OperBtnStyle">
+
+                <ImageView
+                    android:id="@+id/btn_dianzan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:src="@mipmap/dianzan_btn"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/btn_dianzan"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/dianzan"
+                    android:textSize="10dip"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_btn_shoucang"
+                style="@style/OperBtnStyle">
+
+                <ImageView
+                    android:id="@+id/btn_collect"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:src="@mipmap/collect_btn"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/btn_collect"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/collectStr"
+                    android:textSize="10dip"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_btn_fenxiang"
+                style="@style/OperBtnStyle">
+
+                <ImageView
+                    android:id="@+id/btn_share"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:src="@mipmap/share_btn"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/btn_share"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/shareStr"
+                    android:textSize="10dip"/>
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/OperBtnStyle">
+
+                <ImageView
+                    android:id="@+id/btn_comment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:src="@mipmap/comment_btn"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/btn_comment"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/commentStr"
+                    android:textSize="10dip"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_ev_comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/ev_comment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

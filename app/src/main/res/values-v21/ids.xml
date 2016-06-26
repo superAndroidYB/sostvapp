@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="key_data" type="id"/>
+    <item name="key_slug" type="id"/>
+    <item name="key_name" type="id"/>
+
+    <item name="menu_week_video" type="id"/>
+    <item name="menu_white_book" type="id"/>
+    <item name="menu_about_us" type="id"/>
+    <item name="menu_feedback" type="id"/>
+    <item name="menu_life_book" type="id"/>
+</resources>

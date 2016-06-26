@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\AndroidWorkspace\\sostvapp\\vitamio\\build\\intermediates\\res\\merged\\release\\layout-sw550dp-large-v13\\umeng_socialize_full_alert_dialog.xml",
+        "source": "D:\\AndroidWorkspace\\sostvapp\\vitamio\\build\\intermediates\\exploded-aar\\sostvapp\\social_sdk_library_project\\unspecified\\res\\layout-sw550dp-large-v13\\umeng_socialize_full_alert_dialog.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\sostvapp\\vitamio\\build\\intermediates\\res\\merged\\release\\layout-sw550dp-large-v13\\umeng_socialize_oauth_dialog.xml",
+        "source": "D:\\AndroidWorkspace\\sostvapp\\vitamio\\build\\intermediates\\exploded-aar\\sostvapp\\social_sdk_library_project\\unspecified\\res\\layout-sw550dp-large-v13\\umeng_socialize_oauth_dialog.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\sostvapp\\vitamio\\build\\intermediates\\res\\merged\\release\\layout-sw550dp-large-v13\\umeng_socialize_post_share.xml",
+        "source": "D:\\AndroidWorkspace\\sostvapp\\vitamio\\build\\intermediates\\exploded-aar\\sostvapp\\social_sdk_library_project\\unspecified\\res\\layout-sw550dp-large-v13\\umeng_socialize_post_share.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\sostvapp\\vitamio\\build\\intermediates\\res\\merged\\release\\layout-sw550dp-large-v13\\umeng_socialize_titile_bar.xml",
+        "source": "D:\\AndroidWorkspace\\sostvapp\\vitamio\\build\\intermediates\\exploded-aar\\sostvapp\\social_sdk_library_project\\unspecified\\res\\layout-sw550dp-large-v13\\umeng_socialize_titile_bar.xml"
+    }
+]

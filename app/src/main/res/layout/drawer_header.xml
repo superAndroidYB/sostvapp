@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="200dp"
+              android:background="?attr/colorPrimaryDark"
+              android:gravity="center"
+              android:orientation="vertical"
+              android:padding="8dp"
+              android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <activity.sostv.com.widght.RoundImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="16dp"
+            android:id="@+id/header_image_view"
+            android:src="@drawable/video_image_test"
+            android:scaleType="fitXY"
+            app:borderRadius="10dp"
+            app:type="circle"/>
+
+    <TextView
+            android:id="@+id/header_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="@string/reminder"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="15sp"/>
+</LinearLayout>

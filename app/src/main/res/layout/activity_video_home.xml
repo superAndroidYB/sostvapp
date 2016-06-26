@@ -1,0 +1,150 @@
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/main_frame"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBarLayout"
+        style="@style/FitSystemWindows"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:elevation="8dp"
+            app:theme="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/gray_white"
+                android:orientation="vertical">
+
+                <activity.sostv.com.widght.SostvSlideImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="200dp"/>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <RelativeLayout style="@style/BottomTabStyle">
+
+                        <ImageView
+                            android:id="@+id/ivzb"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:src="@mipmap/eye"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/ivzb"
+                            android:layout_gravity="center_vertical"
+                            android:text="@string/btn_zb"
+                            android:textSize="15dip"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout style="@style/BottomTabStyle">
+
+                        <ImageView
+                            android:id="@+id/ivcb"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:src="@mipmap/computer"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/ivcb"
+                            android:layout_gravity="center_vertical"
+                            android:text="@string/btn_cb"
+                            android:textSize="15dip"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout style="@style/BottomTabStyle">
+
+                        <ImageView
+                            android:id="@+id/ivxl"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:src="@mipmap/frames"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/ivxl"
+                            android:layout_gravity="center_vertical"
+                            android:text="@string/btn_xl"
+                            android:textSize="15dip"/>
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:src="@mipmap/zxtj" android:id="@+id/imageView"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="@string/title_zxtj"
+                        android:textSize="18dip"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@+id/imageView"/>
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/list_divider"/>
+
+                <activity.sostv.com.widght.SostvGridView
+                    android:id="@+id/explorGridView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:descendantFocusability="blocksDescendants"
+                    android:gravity="center"
+                    android:horizontalSpacing="8dp"
+                    android:listSelector="@android:color/transparent"
+                    android:numColumns="2"
+                    android:padding="10dp"
+                    android:stretchMode="columnWidth"
+                    android:verticalSpacing="5dp"/>
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

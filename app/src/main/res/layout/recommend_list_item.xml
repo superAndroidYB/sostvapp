@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:padding="5dp" >
+
+    <ImageView
+        android:id="@+id/iv_recommend"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" 
+        android:layout_weight="1"
+        android:src="@drawable/video_fouce"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_weight="2"
+        android:layout_marginLeft="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_recvideo_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="14dip"
+            android:text="新天新地" />
+
+        <TextView
+            android:id="@+id/tv_recvideo_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/DarkGray"
+            android:textSize="10dip"
+            android:text="2016.1.12" />
+
+        <TextView
+            android:id="@+id/tv_recvideo_looknum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/DarkGray"
+            android:textSize="10dip"
+            android:text="6320次播放" />
+    </LinearLayout>
+
+</LinearLayout>
