@@ -16,6 +16,9 @@ public class SostvApplication extends Application {
 		super.onCreate();
 		T.init(this);
 	}
+
+
+
 	public SosUser getUser() {
 		return user;
 	}

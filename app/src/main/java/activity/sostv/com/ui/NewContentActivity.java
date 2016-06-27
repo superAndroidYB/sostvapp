@@ -146,7 +146,7 @@ public class NewContentActivity extends BaseActivity implements View.OnClickList
     }
 
     private void showShareMenu(){
-        ShareMenuActivity.start(this);
+        ShareMenuActivity.start(this,home);
     }
 
     //设置图片滤镜
