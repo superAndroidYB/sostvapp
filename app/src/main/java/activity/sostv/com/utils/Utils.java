@@ -1,12 +1,18 @@
 package activity.sostv.com.utils;
 
+import android.graphics.Bitmap;
+import android.graphics.Canvas;
+import android.graphics.Rect;
 import android.text.TextUtils;
 
+import java.io.ByteArrayOutputStream;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
+
+import io.vov.vitamio.utils.Log;
 
 /**
  *
@@ -23,6 +29,50 @@ public class Utils {
 
     private static final DateFormat FORMAT = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssZ");
 
+    public static byte[] bmpToByteArray(Bitmap bitmap, boolean paramBoolean){
+        Bitmap localBitmap = Bitmap.createBitmap(80, 80, Bitmap.Config.RGB_565);
+        Canvas localCanvas = new Canvas(localBitmap);
+        int i; int j;
+        if (bitmap.getHeight() > bitmap.getWidth()) {
+            i = bitmap.getWidth();
+            j = bitmap.getWidth();
+        }else{
+            i = bitmap.getHeight();
+            j = bitmap.getHeight();
+        }
+        while (true) {
+            localCanvas.drawBitmap(bitmap, new Rect(0, 0, i, j), new Rect(0, 0, 80, 80), null);
+            if (paramBoolean)
+                bitmap.recycle();
+
+            ByteArrayOutputStream localByteArrayOutputStream = new ByteArrayOutputStream();
+            localBitmap.compress(Bitmap.CompressFormat.JPEG, 100, localByteArrayOutputStream);
+            localBitmap.recycle();
+            byte[] arrayOfByte = localByteArrayOutputStream.toByteArray();
+            try{
+                localByteArrayOutputStream.close();
+                return arrayOfByte;
+            }catch (Exception e){
+                Log.e("Utils",e.getMessage());
+            }
+            i = bitmap.getHeight();
+            j = bitmap.getHeight();
+        }
+    }
+
+    public static byte[] bmpToByteArray(Bitmap bitmap){
+        ByteArrayOutputStream output = new ByteArrayOutputStream();
+        bitmap.compress(Bitmap.CompressFormat.PNG, 100, output);
+        bitmap.recycle();
+        byte[] result = output.toByteArray();
+        try {
+            output.close();
+            return result;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
 
 
     public static String convertPublishTime(String time) {

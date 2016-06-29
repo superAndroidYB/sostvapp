@@ -3,6 +3,8 @@ package activity.sostv.com.ui;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -11,14 +13,13 @@ import com.lidroid.xutils.ViewUtils;
 import com.lidroid.xutils.view.annotation.ViewInject;
 import com.tencent.mm.sdk.modelmsg.SendMessageToWX;
 import com.tencent.mm.sdk.modelmsg.WXMediaMessage;
-import com.tencent.mm.sdk.modelmsg.WXTextObject;
+import com.tencent.mm.sdk.modelmsg.WXWebpageObject;
 import com.tencent.mm.sdk.openapi.IWXAPI;
 import com.tencent.mm.sdk.openapi.WXAPIFactory;
 
-import java.util.UUID;
-
 import activity.sostv.com.model.SosHome;
 import activity.sostv.com.sostvapp.R;
+import activity.sostv.com.utils.Utils;
 import io.bxbxbai.common.T;
 
 /**
@@ -36,6 +37,9 @@ public class ShareMenuActivity extends Activity implements View.OnClickListener{
     private ImageView shareQQzone;
     @ViewInject(R.id.btn_share_sina)
     private ImageView shareSina;
+
+    private int THUMB_SIZE = 180;
+
 
     private SosHome home;
 
@@ -78,10 +82,10 @@ public class ShareMenuActivity extends Activity implements View.OnClickListener{
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.btn_share_weixinmoments:
-                shareToWx(SendMessageToWX.Req.WXSceneTimeline);
+                shareTextToWx(SendMessageToWX.Req.WXSceneTimeline);
                 break;
             case R.id.btn_share_weixinhy:
-                shareToWx(SendMessageToWX.Req.WXSceneSession);
+                shareTextToWx(SendMessageToWX.Req.WXSceneSession);
                 break;
             case R.id.btn_share_qqhy:
                 break;
@@ -92,19 +96,21 @@ public class ShareMenuActivity extends Activity implements View.OnClickListener{
         }
     }
 
-    public void shareToWx(int type){
-        WXTextObject textObject = new WXTextObject();
-        textObject.text = home.getTitle();
+    public void shareTextToWx(int type){
+        Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.share_img);
+        String url = "http://www.sostvcn.com";
+        WXWebpageObject localWXWebpageObject = new WXWebpageObject();
+        localWXWebpageObject.webpageUrl = url;
 
-        WXMediaMessage message = new WXMediaMessage();
-        message.mediaObject = textObject;
-        message.description = home.getSubhead();
-
+        WXMediaMessage localWXMediaMessage = new WXMediaMessage( localWXWebpageObject);
+        localWXMediaMessage.title = home.getTitle();//不能太长，否则微信会提示出错。
+        localWXMediaMessage.description = home.getContent();
+        localWXMediaMessage.thumbData = Utils.bmpToByteArray(bitmap, false);
 
         SendMessageToWX.Req req = new SendMessageToWX.Req();
         req.scene = type;
-        req.transaction = String.valueOf(UUID.randomUUID());
-        req.message = message;
+        req.transaction = System.currentTimeMillis() + "";
+        req.message = localWXMediaMessage;
 
         weixinApi.sendReq(req);
     }
