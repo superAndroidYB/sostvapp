@@ -15,6 +15,7 @@ import android.widget.TextView;
 import com.balysv.materialmenu.MaterialMenuDrawable;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
+import com.lidroid.xutils.BitmapUtils;
 import com.lidroid.xutils.ViewUtils;
 import com.lidroid.xutils.view.annotation.ViewInject;
 import com.readystatesoftware.systembartint.SystemBarTintManager;
@@ -28,6 +29,7 @@ import activity.sostv.com.fragmet.NewsContentListFragment;
 import activity.sostv.com.global.Constants;
 import activity.sostv.com.global.WebServiceHelper;
 import activity.sostv.com.model.SosBooks;
+import activity.sostv.com.model.SosUser;
 import activity.sostv.com.model.SostvRequest;
 import activity.sostv.com.model.SostvResponse;
 import activity.sostv.com.sostvapp.R;
@@ -48,11 +50,18 @@ public class MainActivity extends BaseActivity {
     private ListView listView;
     private RoundImageView imageView;
     private TextView textView;
+
+    private BitmapUtils bitmapUtils;
+
+    private SostvApplication mApplication;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ViewUtils.inject(this);
+        mApplication = (SostvApplication)getApplication();
+        bitmapUtils = new BitmapUtils(this);
 
         initToolBar();
         initToolbarAndDrawer();
@@ -64,9 +73,14 @@ public class MainActivity extends BaseActivity {
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                LoginActivity.start(MainActivity.this);
+                if(mApplication.getIsLogin()){
+                    T.showToast("已登录");
+                }else{
+                    LoginActivity.start(MainActivity.this);
+                }
             }
         });
+
         DrawerMenuContent content = new DrawerMenuContent(this);
         listView.setAdapter(new MenuAdapter(this, content.getItems()));
         listView.setOnItemClickListener(new OnMenuListClickListener(this, mDrawerLayout));
@@ -80,7 +94,7 @@ public class MainActivity extends BaseActivity {
             @Override
             public void run() {
                 if ((boolean) PrefUtils.getValue(MainActivity.this, PrefUtils.KEY_FIRST_ENTER, true)) {
-                    loadChildData();
+                    //loadChildData();
                     GlobalExecutor.MAIN_HANDLER.postDelayed(new Runnable() {
                         @Override
                         public void run() {
@@ -91,6 +105,21 @@ public class MainActivity extends BaseActivity {
                 }
             }
         });
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        showUserInfo();
+    }
+
+    private void showUserInfo(){
+        SosUser user = mApplication.getUser();
+        if(user != null){
+            textView.setText(user.getUserCname());
+            bitmapUtils.display(imageView,user.getImageUrl());
+        }
+
     }
 
     private void loadChildData(){

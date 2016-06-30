@@ -32,7 +32,7 @@
     <string name="all_people">所有内置用户</string>
     <string name="recent_news">最近一周文章</string>
     <string name="days_ago">%d 天前</string>
-    <string name="like_count">%d 人赞</string>
+    <string name="like_count">%d 人阿门</string>
     <string name="post_count" translatable="false">%d 人收藏</string>
 
     <string name="submit">提交</string>

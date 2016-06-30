@@ -1,5 +1,6 @@
 package activity.sostv.com.fragmet;
 
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.widget.SwipeRefreshLayout;
@@ -45,6 +46,8 @@ public class NewsContentListFragment extends Fragment {
     private RelativeLayout pullMsgView;
     @ViewInject(R.id.dataCount)
     private TextView dataCount;
+
+    public SharedPreferences sp = null;
 
     private List<SosHome> datas;
     private NewsContentListAdapter mAdapter;

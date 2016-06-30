@@ -14,7 +14,7 @@
             android:layout_height="100dp"
             android:layout_marginTop="16dp"
             android:id="@+id/header_image_view"
-            android:src="@drawable/video_image_test"
+            android:src="@mipmap/avatar_default"
             android:scaleType="fitXY"
             app:borderRadius="10dp"
             app:type="circle"/>

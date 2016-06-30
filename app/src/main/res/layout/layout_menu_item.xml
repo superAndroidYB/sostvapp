@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="horizontal"
               android:layout_width="match_parent"
-              android:padding="8dp"
-              android:layout_height="wrap_content">
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:padding="8dp">
 
-    <ImageView android:layout_width="@dimen/menu_item_height"
-               android:id="@+id/iv_menu_icon"
+    <ImageView android:id="@+id/iv_menu_icon"
+               android:layout_width="@dimen/menu_item_height"
                android:layout_height="@dimen/menu_item_height"/>
-    <TextView android:layout_width="wrap_content"
-              android:layout_height="match_parent"
-              android:text="Search"
-              android:textSize="18sp"
-              android:layout_marginLeft="16dp"
-              android:layout_marginRight="16dp"
-              android:gravity="center_vertical"
-              android:layout_gravity="center_vertical"
-            android:id="@+id/tv_menu_item"/>
+    <TextView
+        android:id="@+id/tv_menu_item"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
 
 </LinearLayout>

@@ -13,6 +13,7 @@ import com.google.gson.Gson;
 import com.lidroid.xutils.ViewUtils;
 import com.lidroid.xutils.view.annotation.ViewInject;
 
+import activity.sostv.com.global.ACache;
 import activity.sostv.com.global.Constants;
 import activity.sostv.com.global.WebServiceHelper;
 import activity.sostv.com.model.SosUser;
@@ -25,7 +26,7 @@ import io.bxbxbai.common.T;
 /**
  * Created by Administrator on 2016/6/23.
  */
-public class LoginFragment extends Fragment implements View.OnClickListener{
+public class LoginFragment extends Fragment implements View.OnClickListener {
 
     private static final String LOGIN = "LOGIN";
     private static final String REGISTER = "REGISTER";
@@ -38,10 +39,9 @@ public class LoginFragment extends Fragment implements View.OnClickListener{
     private Button loginButton;
 
     private SostvApplication application;
+    private ACache mCache;
 
-    private SosUser user;
-
-    public static LoginFragment newInstance(){
+    public static LoginFragment newInstance() {
         LoginFragment lf = new LoginFragment();
         return lf;
     }
@@ -54,6 +54,7 @@ public class LoginFragment extends Fragment implements View.OnClickListener{
         loginButton.setOnClickListener(this);
 
         application = (SostvApplication) getActivity().getApplication();
+        mCache = application.getmCache();
         return v;
     }
 
@@ -62,19 +63,19 @@ public class LoginFragment extends Fragment implements View.OnClickListener{
         super.onViewCreated(view, savedInstanceState);
     }
 
-    private void login(){
+    private void login() {
         String username = editTextId.getText().toString();
         String password = editTextPwd.getText().toString();
-        if("".equals(username) || username == null){
+        if ("".equals(username) || username == null) {
             T.showToast("请输入用户名或邮箱");
             return;
         }
-        if("".equals(password) || password == null){
+        if ("".equals(password) || password == null) {
             T.showToast("请输入密码");
             return;
         }
 
-        user = new SosUser();
+        SosUser user = new SosUser();
         user.setUserName(username);
         user.setLoginOrReg(LOGIN);
         user.setUserPassword(password);
@@ -92,7 +93,7 @@ public class LoginFragment extends Fragment implements View.OnClickListener{
 
     @Override
     public void onClick(View v) {
-        switch (v.getId()){
+        switch (v.getId()) {
             case R.id.login_btnLogin:
                 login();
                 break;
@@ -101,22 +102,25 @@ public class LoginFragment extends Fragment implements View.OnClickListener{
         }
     }
 
-    private class LoginService extends WebServiceHelper{
+    private class LoginService extends WebServiceHelper {
         @Override
         protected void onPostExecute(SostvResponse result) {
-            if(result == null) {
+            if (result == null) {
                 return;
             }
-            if(!Constants.CODE.equals(result.getReturnCode())){
+            if (!Constants.CODE.equals(result.getReturnCode())) {
                 T.showToast("服务器内部错误,请稍后重试");
                 return;
             }
-            if("LOGIN_SUCCEED".equals(result.getReturnData())){
+            if ("LOGIN_FAILURE".equals(result.getReturnData())) {
+                T.showToast("登录失败");
+            } else {
+                Gson gson = new Gson();
+                SosUser user = gson.fromJson(result.getReturnData(), SosUser.class);
                 application.setUser(user);
                 application.setIsLogin(true);
-                T.showToast("登录成功");
-            }else{
-                T.showToast("登录失败");
+                mCache.put("app_user", user, 60 * 60 * 24 * 30);
+                getActivity().finish();
             }
 
         }
