@@ -30,6 +30,10 @@
             android:name="UMENG_APPKEY"
             android:value="576e988c67e58e9040003afd">
         </meta-data>
+        <meta-data
+            android:name="UMENG_MESSAGE_SECRET"
+            android:value="251656ee5de3a6f6f6afe5269bfedaf5" >
+        </meta-data>
 
         <activity
             android:name="activity.sostv.com.ui.WelcomeActivity"
