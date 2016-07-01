@@ -11,19 +11,26 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.lidroid.xutils.BitmapUtils;
 import com.lidroid.xutils.ViewUtils;
 import com.lidroid.xutils.view.annotation.ViewInject;
 
+import activity.sostv.com.model.SosUser;
 import activity.sostv.com.sostvapp.R;
 import activity.sostv.com.widght.ParallaxListView;
+import activity.sostv.com.widght.RoundImageView;
 
 public class UserActivity extends BaseActivity {
 
     //,"设置","关于我们","意见反馈""我的缓存",
-    private String titles[] = new String[]{"我的信息","我的收藏","设置"};
-    private int images[] = new int[]{R.mipmap.sos_mygn,R.mipmap.sos_shoucang,R.mipmap.sos_shezhi};
+    private String titles[] = new String[]{"我的信息","我的缓存","我的收藏","设置"};
+    private int images[] = new int[]{R.mipmap.sos_mygn,R.mipmap.icon_cache_gongneng,R.mipmap.sos_shoucang,R.mipmap.sos_shezhi};
     @ViewInject(R.id.user_gongneng_list)
     private ParallaxListView parallaxListView;
+
+    private SostvApplication application;
+    private SosUser user;
+    private BitmapUtils bitmapUtils;
 
     public static void start(Context context){
         Intent intent = new Intent(context,UserActivity.class);
@@ -36,9 +43,22 @@ public class UserActivity extends BaseActivity {
         ViewUtils.inject(this);
         initToolBar();
         setTitle(R.string.title_user_activity);
+        bitmapUtils = new BitmapUtils(this);
+
+        application = (SostvApplication)getApplication();
+        user = application.getUser();
 
         final View headerView = View.inflate(this,R.layout.parallax_header_view,null);
         final ImageView imageView = (ImageView)headerView.findViewById(R.id.parallax_img);
+        RoundImageView headerImg = (RoundImageView)headerView.findViewById(R.id.header_image_view);
+        TextView userName = (TextView)headerView.findViewById(R.id.header_text_view);
+        if(user.getImageUrl() !=null && !"".equals(user.getImageUrl())){
+            bitmapUtils.display(headerImg, user.getImageUrl());
+        }
+        if(user.getUserCname() !=null && !"".equals(user.getUserCname())){
+            userName.setText(user.getUserCname());
+        }
+
         parallaxListView.setOverScrollMode(View.OVER_SCROLL_NEVER);
         parallaxListView.addHeaderView(headerView);
         parallaxListView.setAdapter(new GongNengListAdaper(this));

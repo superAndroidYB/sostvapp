@@ -23,14 +23,14 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        android:background="@color/bilibg"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
         <activity.sostv.com.widght.ParallaxListView
             android:id="@+id/user_gongneng_list"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:divider="@null"
-            android:dividerHeight="5dp"/>
+            android:divider="@null"/>
 
     </LinearLayout>
 </android.support.design.widget.CoordinatorLayout>

@@ -4,12 +4,13 @@
     android:layout_height="match_parent"
     android:orientation="horizontal"
     android:background="@drawable/card_background_white"
-    android:padding="10dp">
+    android:padding="20dp">
 
     <ImageView
         android:id="@+id/gnIcon"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"/>
 
     <TextView
         android:id="@+id/gnTitle"
@@ -19,12 +20,14 @@
         android:layout_marginLeft="20dp"
         android:layout_toRightOf="@id/gnIcon"
         android:textColor="@color/black"
+        android:layout_centerVertical="true"
         android:textSize="15sp" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
-        android:src="@drawable/youjiantou" />
+        android:layout_centerVertical="true"
+        android:src="@mipmap/youjiantou" />
     
 </RelativeLayout>

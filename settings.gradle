@@ -1,2 +1,2 @@
-include ':app', ':vitamio', ':social_sdk_library_project'
+include ':app', ':vitamio', ':social_sdk_library_project', ':PushSDK'
 
