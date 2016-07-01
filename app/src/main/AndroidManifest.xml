@@ -26,11 +26,11 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.Toolbar">
-
         <meta-data
             android:name="UMENG_APPKEY"
             android:value="576e988c67e58e9040003afd">
         </meta-data>
+
         <activity
             android:name="activity.sostv.com.ui.WelcomeActivity"
             android:alwaysRetainTaskState="true"
@@ -95,15 +95,17 @@
         </activity>
         <activity android:name="activity.sostv.com.ui.LoginActivity">
         </activity>
-
-        <activity android:name="activity.sostv.com.ui.FullScreenVideoActivity"
-                  android:configChanges="orientation|keyboardHidden"
-                  android:screenOrientation="landscape"
-                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+        <activity
+            android:name="activity.sostv.com.ui.FullScreenVideoActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
         </activity>
-
-        <activity android:name="activity.sostv.com.ui.ShareMenuActivity"
-                  android:theme="@style/SostvShareDialogStyleBottom">
+        <activity
+            android:name="activity.sostv.com.ui.ShareMenuActivity"
+            android:theme="@style/SostvShareDialogStyleBottom">
+        </activity>
+        <activity android:name="activity.sostv.com.ui.UserActivity">
         </activity>
     </application>
 

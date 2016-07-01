@@ -74,7 +74,7 @@ public class MainActivity extends BaseActivity {
             @Override
             public void onClick(View v) {
                 if(mApplication.getIsLogin()){
-                    T.showToast("已登录");
+                    UserActivity.start(MainActivity.this);
                 }else{
                     LoginActivity.start(MainActivity.this);
                 }

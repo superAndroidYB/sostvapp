@@ -62,4 +62,6 @@
     <string name="btn_share_qqhy_str">QQ好友</string>
     <string name="btn_share_qqzone_str">QQ空间</string>
     <string name="btn_share_sina_str">新浪微博</string>
+
+    <string name="title_user_activity">我的</string>
 </resources>
