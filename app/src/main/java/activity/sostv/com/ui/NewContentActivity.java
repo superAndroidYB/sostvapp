@@ -348,21 +348,27 @@ public class NewContentActivity extends BaseActivity implements View.OnClickList
 
     private Set<String> removeDzSet(String id){
         Set<String> ids = getDianzanSet();
+        Set<String> newIds = new HashSet<>();
         for(String str : ids){
             if(str.equals(id)){
-                ids.remove(str);
+                continue;
+            }else{
+                newIds.add(str);
             }
         }
-        return ids;
+        return newIds;
     }
     private Set<String> removeScSet(String id){
         Set<String> ids = getShouchangSet();
+        Set<String> newIds = new HashSet<>();
         for(String str : ids){
             if(str.equals(id)){
-                ids.remove(str);
+                continue;
+            }else{
+                newIds.add(str);
             }
         }
-        return ids;
+        return newIds;
     }
 
 
