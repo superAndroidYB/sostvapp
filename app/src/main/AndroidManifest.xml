@@ -34,6 +34,10 @@
             android:name="UMENG_MESSAGE_SECRET"
             android:value="251656ee5de3a6f6f6afe5269bfedaf5" >
         </meta-data>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="1314520jiali" >
+        </meta-data>
 
         <activity
             android:name="activity.sostv.com.ui.WelcomeActivity"

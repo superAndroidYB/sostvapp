@@ -53,4 +53,5 @@ dependencies {
     compile 'com.facebook.stetho:stetho-urlconnection:1.1.0'
     compile 'com.android.support:support-v4:24.0.0-alpha2'
     compile files('libs/libammsdk.jar')
+    compile project(':PushSDK')
 }

@@ -16,6 +16,7 @@ import com.balysv.materialmenu.MaterialMenuDrawable;
 import com.balysv.materialmenu.extras.toolbar.MaterialMenuIconToolbar;
 import com.lidroid.xutils.DbUtils;
 import com.readystatesoftware.systembartint.SystemBarTintManager;
+import com.umeng.message.PushAgent;
 
 import activity.sostv.com.global.WebServiceHelper;
 import activity.sostv.com.sostvapp.R;
@@ -35,6 +36,12 @@ public class BaseActivity extends AppCompatActivity{
     protected SystemBarTintManager mTintManager;
 
     protected WebServiceHelper taskTool;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        PushAgent.getInstance(this).onAppStart();
+    }
 
     public void setContentView(int layoutResID) {
         super.setContentView(layoutResID);

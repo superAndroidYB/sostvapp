@@ -1,6 +1,11 @@
 package activity.sostv.com.ui;
 
 import android.app.Application;
+import android.os.Handler;
+import android.util.Log;
+
+import com.umeng.message.IUmengRegisterCallback;
+import com.umeng.message.PushAgent;
 
 import activity.sostv.com.global.ACache;
 import activity.sostv.com.model.SosUser;
@@ -18,6 +23,7 @@ public class SostvApplication extends Application {
         T.init(this);
         mCache = ACache.get(this);
         loadSosUser();
+        regPush();
     }
 
     private void loadSosUser() {
@@ -25,6 +31,21 @@ public class SostvApplication extends Application {
         if (user != null) {
             isLogin = true;
         }
+    }
+
+    private void regPush(){
+        PushAgent mPushAgent = PushAgent.getInstance(this);
+        mPushAgent.enable(new IUmengRegisterCallback() {
+            @Override
+            public void onRegistered(final String device_token) {
+                new Handler().post(new Runnable() {
+                    @Override
+                    public void run() {
+                        Log.d("====device_token=====", device_token);
+                    }
+                });
+            }
+        });
     }
 
 
