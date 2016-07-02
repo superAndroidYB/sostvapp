@@ -25,12 +25,14 @@ public class NewsContentListAdapter extends BaseRecyclerAdapter<SosHome>{
     private BitmapUtils bitmapUtils;
     private Context context;
     public SharedPreferences sp = null;
+    private Set<String> ids = null;
 
     public NewsContentListAdapter(Context context){
         super(context);
         this.context = context;
         bitmapUtils = new BitmapUtils(context);
         sp = context.getSharedPreferences("GRAY_SET", Context.MODE_PRIVATE);
+        ids = getSetId();
     }
 
     @Override
@@ -53,14 +55,14 @@ public class NewsContentListAdapter extends BaseRecyclerAdapter<SosHome>{
 
         @Override
         public void bind(final SosHome sosHome) {
+
             final Context context = itemView.getContext();
             RoundImageView imageView = findView(R.id.avatar);
             bitmapUtils.display(imageView, sosHome.getImageUrl());
 
             final TextView name = findView(R.id.tv_name);
             name.setText(sosHome.getTitle());
-            Set<String> ids = getSetId();
-            if(ids.contains(sosHome.getId())){
+            if(isContains(sosHome.getId())){
                 name.setTextColor(context.getResources().getColor(R.color.DarkGray));
             }
 
@@ -80,24 +82,30 @@ public class NewsContentListAdapter extends BaseRecyclerAdapter<SosHome>{
                 @Override
                 public void onClick(View v) {
                     NewContentActivity.start(context, sosHome);
-                    saveSetId(sosHome.getId());
+                    ids.add(sosHome.getId());
+                    saveSetId(ids);
                     name.setTextColor(context.getResources().getColor(R.color.DarkGray));
                 }
             });
         }
+    }
 
-        private Set<String> getSetId(){
-            Set<String> idSet = sp.getStringSet("GRAY_ID_SET", new HashSet<String>());
-            return idSet;
-        }
+    public Set<String> getSetId(){
+        Set<String> idSet = sp.getStringSet("GRAY_ID_SET", new HashSet<String>());
+        return idSet;
+    }
 
-        private void saveSetId(String id){
-            Set<String> idSet = sp.getStringSet("GRAY_ID_SET", new HashSet<String>());
-            if(idSet.contains(id)){
-                return;
+    private void saveSetId(Set<String> ids){
+        sp.edit().clear().commit();
+        sp.edit().putStringSet("GRAY_ID_SET",ids).commit();
+    }
+
+    private boolean isContains(String id){
+        for(String str : ids){
+            if(str.equals(id)){
+                return true;
             }
-            idSet.add(id);
-            sp.edit().putStringSet("GRAY_ID_SET",idSet).commit();
         }
+        return false;
     }
 }

@@ -2,6 +2,7 @@ package activity.sostv.com.ui;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.graphics.PorterDuff;
 import android.graphics.drawable.Drawable;
@@ -24,7 +25,9 @@ import com.lidroid.xutils.view.annotation.ViewInject;
 import com.umeng.analytics.MobclickAgent;
 
 import java.net.URL;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 import activity.sostv.com.global.ACache;
 import activity.sostv.com.global.Constants;
@@ -43,6 +46,8 @@ public class NewContentActivity extends BaseActivity implements View.OnClickList
 
     private static final String DIANZAN = "DIANZAN";
     private static final String SHOUCANG = "SHOUCANG";
+    private static final String UNDIANZAN = "UNDIANZAN";
+    private static final String UNSHOUCANG = "UNSHOUCANG";
 
     @ViewInject(R.id.tvContentTitle)
     private TextView contentTitle;
@@ -80,6 +85,9 @@ public class NewContentActivity extends BaseActivity implements View.OnClickList
     private ACache mCache;
     private SosOrder order;
 
+    private SharedPreferences spDz;
+    private SharedPreferences spSc;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -87,6 +95,9 @@ public class NewContentActivity extends BaseActivity implements View.OnClickList
         ViewUtils.inject(this);
         bitmapUtils = new BitmapUtils(this);
         mCache = ACache.get(this);
+        spDz = getSharedPreferences("DIANZAN_IDS", Context.MODE_PRIVATE);
+        spSc = getSharedPreferences("SHOUCANG_IDS", Context.MODE_PRIVATE);
+
         initToolBar();
         initOrderUI();
         try {
@@ -103,6 +114,16 @@ public class NewContentActivity extends BaseActivity implements View.OnClickList
             subheading.setText(home.getContent());
             bitmapUtils.display(contentImageview, home.getImageUrl());
             loadContentHtml();
+            initBtnUI();
+        }
+    }
+
+    private void initBtnUI(){
+        if(isDzContains(home.getId())){
+            btnDianzanImg.setImageResource(R.mipmap.dianzan_btn_f);
+        }
+        if(isScContains(home.getId())){
+            btnShoucangImg.setImageResource(R.mipmap.collect_btn_f);
         }
     }
 
@@ -132,10 +153,18 @@ public class NewContentActivity extends BaseActivity implements View.OnClickList
                 T.showToast("kwkw");
                 break;
             case R.id.rl_btn_dianzan:
-                orderServiceRequest(DIANZAN);
+                if(isDzContains(home.getId())){
+                    orderServiceRequest(UNDIANZAN);
+                }else{
+                    orderServiceRequest(DIANZAN);
+                }
                 break;
             case R.id.rl_btn_shoucang:
-                orderServiceRequest(SHOUCANG);
+                if(isScContains(home.getId())){
+                    orderServiceRequest(UNSHOUCANG);
+                }else{
+                    orderServiceRequest(SHOUCANG);
+                }
                 break;
             case R.id.rl_btn_fenxiang:
                 showShareMenu();
@@ -259,12 +288,85 @@ public class NewContentActivity extends BaseActivity implements View.OnClickList
         protected void onPreExecute() {
             super.onPreExecute();
             if(DIANZAN.equals(order.getOrderType())){
+                Set<String> ids = getDianzanSet();
+                ids.add(home.getId());
+                insertDianzanSet(ids);
                 btnDianzanImg.setImageResource(R.mipmap.dianzan_btn_f);
             }else if(SHOUCANG.equals(order.getOrderType())){
+                Set<String> ids = getShouchangSet();
+                ids.add(home.getId());
+                insertShouchangSet(ids);
                 btnShoucangImg.setImageResource(R.mipmap.collect_btn_f);
+            }else if(UNDIANZAN.equals(order.getOrderType())){
+                Set<String> ids = removeDzSet(home.getId());
+                insertDianzanSet(ids);
+                btnDianzanImg.setImageResource(R.mipmap.dianzan_btn);
+            }else if(UNSHOUCANG.equals(order.getOrderType())){
+                Set<String> ids = removeScSet(home.getId());
+                insertShouchangSet(ids);
+                btnShoucangImg.setImageResource(R.mipmap.collect_btn);
             }
         }
     }
+
+    private Set<String> getDianzanSet(){
+        return spDz.getStringSet("DIANZAN_ID_SET",new HashSet<String>());
+    }
+
+    private Set<String> getShouchangSet(){
+        return spSc.getStringSet("SHOUCANG_ID_SET",new HashSet<String>());
+    }
+
+    private void insertDianzanSet(Set<String> dzSet){
+        spDz.edit().clear().commit();
+        spDz.edit().putStringSet("DIANZAN_ID_SET",dzSet).commit();
+    }
+
+    private void insertShouchangSet(Set<String> scSet){
+        spSc.edit().clear().commit();
+        spSc.edit().putStringSet("SHOUCANG_ID_SET", scSet).commit();
+    }
+
+    private boolean isDzContains(String id){
+        Set<String> ids = getDianzanSet();
+        for(String str : ids){
+            if(str.equals(id)){
+                return true;
+            }
+        }
+        return false;
+    }
+    private boolean isScContains(String id){
+        Set<String> ids = getShouchangSet();
+        for(String str : ids){
+            if(str.equals(id)){
+                return true;
+            }
+        }
+        return false;
+    }
+
+    private Set<String> removeDzSet(String id){
+        Set<String> ids = getDianzanSet();
+        for(String str : ids){
+            if(str.equals(id)){
+                ids.remove(str);
+            }
+        }
+        return ids;
+    }
+    private Set<String> removeScSet(String id){
+        Set<String> ids = getShouchangSet();
+        for(String str : ids){
+            if(str.equals(id)){
+                ids.remove(str);
+            }
+        }
+        return ids;
+    }
+
+
+
 
     public static void start(final Context context,SosHome home){
         final Intent intent = new Intent(context, NewContentActivity.class);
