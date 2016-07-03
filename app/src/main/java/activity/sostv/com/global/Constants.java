@@ -8,7 +8,7 @@ public class Constants {
 	public static final String VIDEO = "VIDEO";
 	public static final String CODE = "200";
 	
-	public static final String sostvAppServiceUrl = "http://192.168.1.104:8080/com.sostvapp/dorado/webservice/SostvService/";
+	public static final String sostvAppServiceUrl = "http://192.168.1.101:8080/com.sostvapp/dorado/webservice/SostvService/";
 	//public static final String sostvAppServiceUrl = "http://10.0.2.2:8080/com.sostvapp/dorado/webservice/SostvService/";
 	public static final String targetNameSpace = "http://www.sostvapp.com/ws";
 	public static final String methodName = "SostvRequest";
@@ -59,4 +59,8 @@ public class Constants {
 	 * 登录注册
 	 */
 	public static final String LOGINREG = "LOGINREG";
+	/**
+	 * 用户反馈
+	 */
+	public static final String FEEDBACK = "FEEDBACK";
 }
