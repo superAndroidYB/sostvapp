@@ -14,7 +14,6 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
-import android.widget.ScrollView;
 import android.widget.TextView;
 
 import com.google.gson.Gson;
@@ -32,9 +31,11 @@ import java.util.Set;
 import activity.sostv.com.global.ACache;
 import activity.sostv.com.global.Constants;
 import activity.sostv.com.global.WebServiceHelper;
+import activity.sostv.com.model.SosComment;
 import activity.sostv.com.model.SosContent;
 import activity.sostv.com.model.SosHome;
 import activity.sostv.com.model.SosOrder;
+import activity.sostv.com.model.SosUser;
 import activity.sostv.com.model.SostvRequest;
 import activity.sostv.com.model.SostvResponse;
 import activity.sostv.com.sostvapp.R;
@@ -73,10 +74,10 @@ public class NewContentActivity extends BaseActivity implements View.OnClickList
 
     @ViewInject(R.id.ll_ev_comment)
     private LinearLayout llEvComment;
-    @ViewInject(R.id.ev_comment)
-    private EditText evComment;
-    @ViewInject(R.id.sl_content)
-    private ScrollView slContent;
+    @ViewInject(R.id.sendmsg_footer_btn)
+    private ImageView sendBtn;
+    @ViewInject(R.id.comment_footer_edit)
+    private EditText etComment;
     @ViewInject(R.id.v_loading)
     private CircularLoadingView loadingView;
     private BitmapUtils bitmapUtils;
@@ -88,11 +89,14 @@ public class NewContentActivity extends BaseActivity implements View.OnClickList
     private SharedPreferences spDz;
     private SharedPreferences spSc;
 
+    private SosUser user;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_new_content);
         ViewUtils.inject(this);
+        user = ((SostvApplication)getApplication()).getUser();
         bitmapUtils = new BitmapUtils(this);
         mCache = ACache.get(this);
         spDz = getSharedPreferences("DIANZAN_IDS", Context.MODE_PRIVATE);
@@ -144,13 +148,14 @@ public class NewContentActivity extends BaseActivity implements View.OnClickList
         btnDianzan.setOnClickListener(this);
         btnShoucang.setOnClickListener(this);
         btnfenxiang.setOnClickListener(this);
+        sendBtn.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.rl_btn_comment:
-                T.showToast("kwkw");
+                showCommentCon();
                 break;
             case R.id.rl_btn_dianzan:
                 if(isDzContains(home.getId())){
@@ -169,9 +174,45 @@ public class NewContentActivity extends BaseActivity implements View.OnClickList
             case R.id.rl_btn_fenxiang:
                 showShareMenu();
                 break;
+            case R.id.sendmsg_footer_btn:
+                sendComment();
+                break;
+            case R.id.comment_footer_edit:
+                T.showToast("ww");
+                break;
             default:
                 break;
         }
+    }
+
+
+    private void sendComment(){
+        if(!((SostvApplication)getApplication()).getIsLogin()){
+            LoginActivity.start(this);
+        }
+        String comment = etComment.getText().toString();
+        if(comment == null || "".equals(comment)){
+            T.showToast("评论内容不能为空");
+            return ;
+        }
+        Gson gson = new Gson();
+        SostvRequest request = new SostvRequest();
+        SosComment sc = new SosComment();
+        sc.setResourceId(home.getId());
+        sc.setCommentContent(comment);
+        sc.setCommentUser(user.getUserName());
+        request.setProperty(0, Constants.SENDCOMMENT);
+        request.setProperty(1,"NewContentActivity");
+        request.setProperty(2, gson.toJson(sc));
+        WebServiceHelper sendCommentService = new WebServiceHelper();
+        sendCommentService.execute(request);
+        etComment.clearFocus();
+        llEvComment.setVisibility(View.GONE);
+    }
+
+    private void showCommentCon(){
+        llEvComment.setVisibility(View.VISIBLE);
+        etComment.requestFocus();
     }
 
     private void showShareMenu(){
@@ -188,7 +229,7 @@ public class NewContentActivity extends BaseActivity implements View.OnClickList
         }
         if(drawable!=null){
             //设置滤镜
-            drawable.setColorFilter(Color.GRAY, PorterDuff.Mode.MULTIPLY);;
+            drawable.setColorFilter(Color.GRAY, PorterDuff.Mode.MULTIPLY);
         }
     }
 

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#F4F5F6"
+              android:gravity="center_vertical"
+              android:orientation="horizontal"
+              android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/include_news_footer_edit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="7"
+        android:background="@drawable/shape_news_footer_edit"
+        android:clickable="true"
+        android:padding="5dp"
+        android:text="写评论..."
+        android:textColor="@drawable/sel_news_footer_edit_color"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/include_news_footer_pinglun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:src="@mipmap/dianzan_btn" />
+
+    <ImageView
+        android:id="@+id/include_news_footer_shoucang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:src="@mipmap/collect_btn" />
+
+</LinearLayout>

@@ -209,10 +209,7 @@
             android:orientation="horizontal"
             android:visibility="gone">
 
-            <EditText
-                android:id="@+id/ev_comment"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+            <include layout="@layout/comment_footer"/>
         </LinearLayout>
     </LinearLayout>
 </android.support.design.widget.CoordinatorLayout>
