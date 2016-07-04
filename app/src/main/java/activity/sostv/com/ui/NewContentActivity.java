@@ -177,9 +177,6 @@ public class NewContentActivity extends BaseActivity implements View.OnClickList
             case R.id.sendmsg_footer_btn:
                 sendComment();
                 break;
-            case R.id.comment_footer_edit:
-                T.showToast("ww");
-                break;
             default:
                 break;
         }
