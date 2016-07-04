@@ -27,6 +27,8 @@ public class SosHomeZxtjGridViewAdapter extends BaseAdapter {
 		this.mContext = mContext;
 		this.datas = datas;
 		bitmapUtils = new BitmapUtils(mContext);
+		bitmapUtils.configDefaultLoadingImage(R.mipmap.default_sos_img);
+		bitmapUtils.configDefaultLoadFailedImage(R.mipmap.default_sos_img);
 		pingfang = Typeface.createFromAsset(mContext.getAssets(), "fonts/PingFangLight.ttf");
 	}
 	
