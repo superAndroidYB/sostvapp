@@ -64,4 +64,16 @@
     <string name="btn_share_sina_str">新浪微博</string>
 
     <string name="title_user_activity">我的</string>
+    <string name="lxfs">联系方式</string>
+
+    <string name="desc_1">我们是通过书籍、音频、视频、网络来传播福音的媒体;</string>
+    <string name="desc_2">旨在传播真理，力图帮助所有基督徒和非基督徒走向生命的救赎之路;</string>
+    <string name="desc_3">帮助你们将生活的根基建立在圣经的话语之上，创建幸福的家庭，得享健康的生活。</string>
+    <string name="desc_4">联系电话： 13804244366</string>
+    <string name="desc_5">联系电话： 15140501466</string>
+    <string name="desc_6">邮箱： sostvbjb@163.com</string>
+    <string name="desc_7">官方微博： weibo.com/sostvcn</string>
+    <string name="desc_8">微信公众号： palm77777</string>
+    <string name="desc_9">电脑网站： www.sostvcn.com</string>
+    <string name="desc_10">手机网站： m.sostvcn.com</string>
 </resources>
