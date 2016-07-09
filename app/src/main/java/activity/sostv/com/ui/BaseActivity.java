@@ -26,7 +26,7 @@ import io.bxbxbai.common.StopWatch;
 /**
  * Created by Administrator on 2016/6/3.
  */
-public class BaseActivity extends AppCompatActivity{
+public class BaseActivity extends AppCompatActivity {
 
     public SharedPreferences sp = null;
     protected DbUtils db;

@@ -2,13 +2,10 @@ package activity.sostv.com.global;
 
 public class Constants {
 
-	public static final String LEVEL1 = "1";
-	public static final String LEVEL2 = "2";
-	
 	public static final String VIDEO = "VIDEO";
 	public static final String CODE = "200";
 	
-	public static final String sostvAppServiceUrl = "http://192.168.1.104:8080/com.sostvapp/dorado/webservice/SostvService/";
+	public static final String sostvAppServiceUrl = "http://192.168.1.105:8080/com.sostvapp/dorado/webservice/SostvService/";
 	//public static final String sostvAppServiceUrl = "http://10.0.2.2:8080/com.sostvapp/dorado/webservice/SostvService/";
 	public static final String targetNameSpace = "http://www.sostvapp.com/ws";
 	public static final String methodName = "SostvRequest";

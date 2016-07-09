@@ -25,6 +25,7 @@ import activity.sostv.com.sostvapp.R;
 import activity.sostv.com.widght.ReboundScrollView;
 import activity.sostv.com.widght.SostvCollapsibleTextView;
 import io.bxbxbai.common.T;
+import io.vov.vitamio.LibsChecker;
 
 public class VideoViewActivity extends BaseActivity implements View.OnClickListener {
 	public static  final String TAG = "VideoViewActivity";
@@ -70,6 +71,10 @@ public class VideoViewActivity extends BaseActivity implements View.OnClickListe
 		parseIntent(getIntent());
 		initUI();
 		setTitle(mSosVideo.getVideoName());
+
+		if (!LibsChecker.checkVitamioLibs(this)){
+			return;
+		}
 	}
 
 	private void parseIntent(Intent i){

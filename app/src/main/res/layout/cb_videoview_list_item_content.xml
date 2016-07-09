@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<activity.sostv.com.widght.RippleRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/WhiteSmoke"
+    android:orientation="vertical"
+    android:padding="10dp"
+    app:rv_color="#ccc"
+    app:rv_rippleDuration="200"
+    app:rv_type="rectangle">
+
+
+    <activity.sostv.com.widght.RoundImageView
+        android:id="@+id/cv_contentImg"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="16dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/avatar_default"
+        app:borderRadius="10dp"
+        app:type="circle"/>
+
+    <TextView
+        android:id="@+id/cv_content_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/margin_8dp"
+        android:layout_toRightOf="@id/cv_contentImg"
+        android:layout_marginTop="@dimen/margin_8dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="礼拜证道"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/cv_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cv_content_title"
+        android:layout_marginTop="@dimen/margin_8dp"
+        android:layout_marginRight="@dimen/margin_8dp"
+        android:layout_toRightOf="@id/cv_contentImg"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="七日的周期是从上帝起初创造地球的时候起始的，并且借着《圣经》的历史保留至今。上帝应许在这个神圣之日赐下丰富的恩典，而这恩典便是伴随上帝的话语而来的。这些宝贵的话语要成为我们路上的光，并使我们从中得到力量的生命之粮。《每周证道》汇集了多位牧师、长老及传道人从不同角度讲解《圣经》的讲道，能够帮助屏幕前的各位从上帝的话语中得到恩典和力量。每周证道，每周为您预备！"
+        android:textColor="@color/DimGray"
+        android:textSize="14sp"/>
+
+
+</activity.sostv.com.widght.RippleRelativeLayout>
