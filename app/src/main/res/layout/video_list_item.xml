@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/WhiteSmoke"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/video_item_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image_empty"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_toEndOf="@+id/video_item_img"
+        android:orientation="vertical" android:id="@+id/linearLayout">
+
+        <TextView
+            android:id="@+id/video_tiem_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="最后的审判"
+            android:textColor="@color/black"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/video_tiem_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="最后的审判"
+            android:textColor="@color/DarkGray"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:orientation="horizontal"
+        android:layout_alignBottom="@+id/video_item_img"
+        android:layout_toEndOf="@+id/video_item_img">
+        <Button
+            android:id="@+id/btn_item_1"
+            android:layout_width="40sp"
+            android:layout_height="20sp"
+            android:background="@drawable/video_item_button_style"
+            android:text="@string/cache"
+            android:textColor="@color/black"
+            android:textSize="10sp"/>
+
+        <Button
+            android:id="@+id/btn_item_2"
+            android:layout_width="40sp"
+            android:layout_height="20sp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/video_item_button_style"
+            android:text="@string/cache"
+            android:textColor="@color/black"
+            android:textSize="10sp"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -47,7 +47,6 @@ public class VideoHomeActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_video_home);
-        initToolBar();
         setTitle(R.string.video_home_title);
         ViewUtils.inject(this);
 

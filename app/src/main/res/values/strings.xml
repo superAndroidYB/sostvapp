@@ -53,6 +53,8 @@
     <string name="title_activity_content">ContentActivity</string>
     <string name="loadMore">加载更多...</string>
 
+    <string name="cache">缓存</string>
+
     <string name="idtxthint">用户名/邮箱</string>
     <string name="pwdtxthint">密码</string>
     <string name="loginbtntext">登录</string>

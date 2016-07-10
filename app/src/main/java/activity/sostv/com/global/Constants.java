@@ -24,19 +24,9 @@ public class Constants {
 	public static final String VIDEO_NEWS = "VIDEO_NEWS";
 
 	/**
-	 * 视频-系列讲座
+	 * 视频-列表
 	 */
-	public static final String VIDEO_XLJZ = "VIDEO_XLJZ";
-
-	/**
-	 * 视频-礼拜重播
-	 */
-	public static final String VIDEO_LBCB = "VIDEO_LBCB";
-
-	/**
-	 * 视频-礼拜直播
-	 */
-	public static final String VIDEO_LBZB = "VIDEO_LBZB";
+	public static final String VIDEO_LIST = "VIDEO_LIST";
 
 	/**
 	 * 怀著

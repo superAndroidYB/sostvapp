@@ -1,15 +1,25 @@
 package activity.sostv.com.model;
 
-import java.util.Hashtable;
-
 import org.ksoap2.serialization.KvmSerializable;
 import org.ksoap2.serialization.PropertyInfo;
+
+import java.util.Hashtable;
 
 public class SostvRequest implements KvmSerializable {
 
 	public String serviceType;
 	public String source;
 	public String data;
+
+	public SostvRequest(){
+
+	}
+
+	public SostvRequest(String serviceType,String source,String data){
+		setProperty(0,serviceType);
+		setProperty(1,source);
+		setProperty(2,data);
+	}
 
 	@Override
 	public Object getProperty(int arg0) {
