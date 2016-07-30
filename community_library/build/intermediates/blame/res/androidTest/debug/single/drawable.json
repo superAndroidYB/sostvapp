@@ -4,12 +4,12 @@
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_register_btnbg.xml"
     },
     {
-        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_radio_button_bg.xml",
-        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_radio_button_bg.xml"
-    },
-    {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_simplify_feed_detail_comment_input_bg.xml",
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_simplify_feed_detail_comment_input_bg.xml"
+    },
+    {
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_radio_button_bg.xml",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_radio_button_bg.xml"
     },
     {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_radius_bg.xml",
@@ -64,12 +64,12 @@
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_feed_detail_tv_yellow_selector.xml"
     },
     {
-        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_comment_msg_tv_selector.xml",
-        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_comment_msg_tv_selector.xml"
-    },
-    {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_send_bt.xml",
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_send_bt.xml"
+    },
+    {
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_comment_msg_tv_selector.xml",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_comment_msg_tv_selector.xml"
     },
     {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_send_button.xml",
@@ -84,48 +84,48 @@
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_image_pick.xml"
     },
     {
-        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_tv_style.xml",
-        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_tv_style.xml"
-    },
-    {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_simplify_feed_detail_like_count_selector.xml",
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_simplify_feed_detail_like_count_selector.xml"
+    },
+    {
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_tv_style.xml",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_tv_style.xml"
     },
     {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_wodedongtai.png",
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_wodedongtai.png"
     },
     {
-        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_feed_detail_tv_blue_selector.xml",
-        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_feed_detail_tv_blue_selector.xml"
-    },
-    {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_checkbox_style.xml",
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_checkbox_style.xml"
+    },
+    {
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_feed_detail_tv_blue_selector.xml",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_feed_detail_tv_blue_selector.xml"
     },
     {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_feed_detail_favorite_selector.xml",
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_feed_detail_favorite_selector.xml"
     },
     {
-        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_commm_feeddetail_like_selector.xml",
-        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_commm_feeddetail_like_selector.xml"
-    },
-    {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_login_btnbg.xml",
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_login_btnbg.xml"
+    },
+    {
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_commm_feeddetail_like_selector.xml",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_commm_feeddetail_like_selector.xml"
     },
     {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_feed_detail_yellow_selector.xml",
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_feed_detail_yellow_selector.xml"
     },
     {
-        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_switch_centerbutton_bg.xml",
-        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_switch_centerbutton_bg.xml"
-    },
-    {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_login_btnbg.xml",
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_login_btnbg.xml"
+    },
+    {
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_switch_centerbutton_bg.xml",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_switch_centerbutton_bg.xml"
     },
     {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_radio_shape.xml",
@@ -136,24 +136,24 @@
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_focus_user_bg.xml"
     },
     {
-        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_topic_icon.png",
-        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_topic_icon.png"
-    },
-    {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_switch_rightbutton_bg.xml",
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_switch_rightbutton_bg.xml"
+    },
+    {
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_topic_icon.png",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_topic_icon.png"
     },
     {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_circle_shape.xml",
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_circle_shape.xml"
     },
     {
-        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_indicatorline.xml",
-        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_indicatorline.xml"
-    },
-    {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_segment_shape.xml",
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_segment_shape.xml"
+    },
+    {
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_indicatorline.xml",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_indicatorline.xml"
     },
     {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_settingbutton_bg.xml",
@@ -192,12 +192,12 @@
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_text_color.xml"
     },
     {
-        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_not_found.png",
-        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_not_found.png"
-    },
-    {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_item_bg.xml",
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_item_bg.xml"
+    },
+    {
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_not_found.png",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_not_found.png"
     },
     {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_gray_bg.xml",
@@ -208,12 +208,12 @@
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_simplify_feed_detail_like_icon_selector.xml"
     },
     {
-        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_retangle.xml",
-        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_retangle.xml"
-    },
-    {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_spam_bg.xml",
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_spam_bg.xml"
+    },
+    {
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_retangle.xml",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_retangle.xml"
     },
     {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_feed_detail_comment_selector.xml",
@@ -264,36 +264,36 @@
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_commm_active_user_togglebutton_bg.xml"
     },
     {
-        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_color_ff_bg.xml",
-        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_color_ff_bg.xml"
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_simplify_feed_item_btn_selector.xml",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_simplify_feed_item_btn_selector.xml"
     },
     {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_topic_togglebutton.xml",
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_topic_togglebutton.xml"
     },
     {
-        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_simplify_feed_item_btn_selector.xml",
-        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_simplify_feed_item_btn_selector.xml"
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_color_ff_bg.xml",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_color_ff_bg.xml"
     },
     {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_feed_detail_blue_p.xml",
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_feed_detail_blue_p.xml"
     },
     {
-        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_comment.xml",
-        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_comment.xml"
-    },
-    {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_smallbutton.xml",
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_smallbutton.xml"
     },
     {
-        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_select_topic_selector.xml",
-        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_select_topic_selector.xml"
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_comment.xml",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_comment.xml"
     },
     {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_topic_bt.xml",
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_topic_bt.xml"
+    },
+    {
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_select_topic_selector.xml",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_select_topic_selector.xml"
     },
     {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_send_btn_style.xml",
@@ -312,12 +312,12 @@
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_image_save_bg.xml"
     },
     {
-        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_button_hot_btn_text_selector.xml",
-        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_button_hot_btn_text_selector.xml"
-    },
-    {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_location_bt.xml",
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_location_bt.xml"
+    },
+    {
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_button_hot_btn_text_selector.xml",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_button_hot_btn_text_selector.xml"
     },
     {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_search_frame_style.xml",
@@ -336,20 +336,20 @@
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_cancel_bt.xml"
     },
     {
-        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_logout_bg.xml",
-        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_logout_bg.xml"
-    },
-    {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_like_more_user.xml",
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_like_more_user.xml"
     },
     {
-        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_photo_pick_bt.xml",
-        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_photo_pick_bt.xml"
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_logout_bg.xml",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_logout_bg.xml"
     },
     {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_simplify_feed_item_like_selector.xml",
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_simplify_feed_item_like_selector.xml"
+    },
+    {
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_photo_pick_bt.xml",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_photo_pick_bt.xml"
     },
     {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_feed_detail_blue_n.xml",
@@ -368,28 +368,28 @@
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_segment_shape_middle.xml"
     },
     {
-        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_rounded_corner_backgroud.xml",
-        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_rounded_corner_backgroud.xml"
-    },
-    {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_toastbg.xml",
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_toastbg.xml"
     },
     {
-        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_hot_button_selector.xml",
-        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_hot_button_selector.xml"
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_rounded_corner_backgroud.xml",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_rounded_corner_backgroud.xml"
     },
     {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_selector_switch_state.xml",
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_selector_switch_state.xml"
     },
     {
-        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_delete.png",
-        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_delete.png"
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_hot_button_selector.xml",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_hot_button_selector.xml"
     },
     {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_feed_item_topic_bg.xml",
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_feed_item_topic_bg.xml"
+    },
+    {
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_delete.png",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_delete.png"
     },
     {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_male.png",
@@ -404,12 +404,12 @@
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_color_12_bg.xml"
     },
     {
-        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_edit_background.xml",
-        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_edit_background.xml"
-    },
-    {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_like_bt.xml",
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_like_bt.xml"
+    },
+    {
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_edit_background.xml",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_edit_background.xml"
     },
     {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_feed_detail_like_selector.xml",
@@ -480,20 +480,20 @@
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_search_button_style.xml"
     },
     {
-        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_more_radius_bottom.xml",
-        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_more_radius_bottom.xml"
-    },
-    {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_comment_like_selector.xml",
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_comment_like_selector.xml"
     },
     {
-        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_find_bt.xml",
-        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_find_bt.xml"
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_more_radius_bottom.xml",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_more_radius_bottom.xml"
     },
     {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_simplify_feed_detail_like_bg_p.xml",
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_simplify_feed_detail_like_bg_p.xml"
+    },
+    {
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_find_bt.xml",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_find_bt.xml"
     },
     {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_add_pic_bg.xml",

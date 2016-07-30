@@ -8,12 +8,12 @@
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_comm_chat_input_view.xml"
     },
     {
-        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_simplify_community_frag_layout.xml",
-        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_simplify_community_frag_layout.xml"
-    },
-    {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_comm_base_loading_view.xml",
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_comm_base_loading_view.xml"
+    },
+    {
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_simplify_community_frag_layout.xml",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_simplify_community_frag_layout.xml"
     },
     {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_simplify_feed_lv_item.xml",
@@ -24,12 +24,12 @@
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_comm_active_user_layout.xml"
     },
     {
-        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_simplify_topicpick_layout.xml",
-        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_simplify_topicpick_layout.xml"
-    },
-    {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_comm_base_empty_view.xml",
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_comm_base_empty_view.xml"
+    },
+    {
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_simplify_topicpick_layout.xml",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_simplify_topicpick_layout.xml"
     },
     {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_comm_account_setting.xml",
@@ -96,12 +96,12 @@
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_comm_received_comment_item.xml"
     },
     {
-        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_commm_my_msg_layout.xml",
-        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_commm_my_msg_layout.xml"
-    },
-    {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_comm_toast_topic_default.xml",
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_comm_toast_topic_default.xml"
+    },
+    {
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_commm_my_msg_layout.xml",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_commm_my_msg_layout.xml"
     },
     {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_comm_push_setting.xml",
@@ -216,28 +216,28 @@
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_simplify_image_selected_item.xml"
     },
     {
-        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_comm_imagepicker_photo_item.xml",
-        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_comm_imagepicker_photo_item.xml"
-    },
-    {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_simplify_find_layout.xml",
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_simplify_find_layout.xml"
+    },
+    {
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_comm_imagepicker_photo_item.xml",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_comm_imagepicker_photo_item.xml"
     },
     {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_comm_more_dialog_layout.xml",
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_comm_more_dialog_layout.xml"
     },
     {
-        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_comm_comment_main_layout.xml",
-        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_comm_comment_main_layout.xml"
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_comm_recommendtopic_item.xml",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_comm_recommendtopic_item.xml"
     },
     {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_simplify_feeds_frgm_layout.xml",
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_simplify_feeds_frgm_layout.xml"
     },
     {
-        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_comm_recommendtopic_item.xml",
-        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_comm_recommendtopic_item.xml"
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_comm_comment_main_layout.xml",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_comm_comment_main_layout.xml"
     },
     {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_comm_like_user_item.xml",
@@ -272,24 +272,24 @@
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_simplify_setting_activity.xml"
     },
     {
-        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_comm_at_friends_layout.xml",
-        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_comm_at_friends_layout.xml"
-    },
-    {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_comm_notify_fragment.xml",
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_comm_notify_fragment.xml"
     },
     {
-        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_comm_imagepicker_view_photopreview.xml",
-        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_comm_imagepicker_view_photopreview.xml"
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_comm_at_friends_layout.xml",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_comm_at_friends_layout.xml"
+    },
+    {
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_comm_feeds_frgm_layout.xml",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_comm_feeds_frgm_layout.xml"
     },
     {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_comm_imagepicker_photopreview.xml",
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_comm_imagepicker_photopreview.xml"
     },
     {
-        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_comm_feeds_frgm_layout.xml",
-        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_comm_feeds_frgm_layout.xml"
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_comm_imagepicker_view_photopreview.xml",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_comm_imagepicker_view_photopreview.xml"
     },
     {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_comm_report_reply_comment_dialog.xml",
@@ -332,12 +332,12 @@
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_simplify_images_gv.xml"
     },
     {
-        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_simplify_topic_detail_layout.xml",
-        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_simplify_topic_detail_layout.xml"
-    },
-    {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_comm_setting.xml",
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_comm_setting.xml"
+    },
+    {
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_simplify_topic_detail_layout.xml",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_simplify_topic_detail_layout.xml"
     },
     {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_comm_comment_layout.xml",
@@ -352,16 +352,16 @@
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_simplify_msg_comment_item.xml"
     },
     {
-        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_comm_image_browser.xml",
-        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_comm_image_browser.xml"
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_simplify_title.xml",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_simplify_title.xml"
     },
     {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_comm_fragment_title.xml",
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_comm_fragment_title.xml"
     },
     {
-        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_simplify_title.xml",
-        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_simplify_title.xml"
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_comm_image_browser.xml",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_comm_image_browser.xml"
     },
     {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_comm_nearby_user_lv_item.xml",
@@ -416,16 +416,16 @@
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_comm_followed_topic_layout.xml"
     },
     {
-        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_comm_followed_user_layout.xml",
-        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_comm_followed_user_layout.xml"
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_comm_friends_frag.xml",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_comm_friends_frag.xml"
     },
     {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_comm_gender_select.xml",
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_comm_gender_select.xml"
     },
     {
-        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_comm_friends_frag.xml",
-        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_comm_friends_frag.xml"
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_comm_followed_user_layout.xml",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_comm_followed_user_layout.xml"
     },
     {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_simplify_comment_main_layout.xml",

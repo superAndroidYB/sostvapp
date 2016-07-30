@@ -1,47 +1,47 @@
 [
     {
-        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4\\umeng_comm_simplify_top.png",
-        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable-xxxhdpi-v4\\umeng_comm_simplify_top.png"
-    },
-    {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4\\umeng_more.png",
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable-xxxhdpi-v4\\umeng_more.png"
     },
     {
-        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4\\umeng_simplify_feed_item_like_p.png",
-        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable-xxxhdpi-v4\\umeng_simplify_feed_item_like_p.png"
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4\\umeng_comm_simplify_top.png",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable-xxxhdpi-v4\\umeng_comm_simplify_top.png"
     },
     {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4\\umeng_simplify_feed_item_comment_p.png",
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable-xxxhdpi-v4\\umeng_simplify_feed_item_comment_p.png"
     },
     {
-        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4\\umeng_comm_simplify_essential.png",
-        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable-xxxhdpi-v4\\umeng_comm_simplify_essential.png"
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4\\umeng_simplify_feed_item_like_p.png",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable-xxxhdpi-v4\\umeng_simplify_feed_item_like_p.png"
     },
     {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4\\umeng_simplify_feed_item_like_n.png",
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable-xxxhdpi-v4\\umeng_simplify_feed_item_like_n.png"
     },
     {
-        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4\\umeng_add_click.png",
-        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable-xxxhdpi-v4\\umeng_add_click.png"
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4\\umeng_comm_simplify_essential.png",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable-xxxhdpi-v4\\umeng_comm_simplify_essential.png"
     },
     {
-        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4\\umeng_simplify_feed_detail_like_p.png",
-        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable-xxxhdpi-v4\\umeng_simplify_feed_detail_like_p.png"
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4\\umeng_add_click.png",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable-xxxhdpi-v4\\umeng_add_click.png"
     },
     {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4\\umeng_simplify_cheers.png",
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable-xxxhdpi-v4\\umeng_simplify_cheers.png"
     },
     {
-        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4\\umeng_simplify_close_p.png",
-        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable-xxxhdpi-v4\\umeng_simplify_close_p.png"
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4\\umeng_simplify_feed_detail_like_p.png",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable-xxxhdpi-v4\\umeng_simplify_feed_detail_like_p.png"
     },
     {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4\\umeng_simplify_feed_detail_favorite_n.png",
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable-xxxhdpi-v4\\umeng_simplify_feed_detail_favorite_n.png"
+    },
+    {
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4\\umeng_simplify_close_p.png",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable-xxxhdpi-v4\\umeng_simplify_close_p.png"
     },
     {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4\\umeng_simplify_close_n.png",
@@ -60,12 +60,12 @@
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable-xxxhdpi-v4\\umeng_simplify_feed_detail_favorite_p.png"
     },
     {
-        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4\\umeng_simplify_comment_item_more.png",
-        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable-xxxhdpi-v4\\umeng_simplify_comment_item_more.png"
-    },
-    {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4\\umeng_simplify_find_comment.png",
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable-xxxhdpi-v4\\umeng_simplify_find_comment.png"
+    },
+    {
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4\\umeng_simplify_comment_item_more.png",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable-xxxhdpi-v4\\umeng_simplify_comment_item_more.png"
     },
     {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4\\umeng_comm_simplify_announce.png",
@@ -108,12 +108,12 @@
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable-xxxhdpi-v4\\umeng_simplify_comment_item_reply.png"
     },
     {
-        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4\\umeng_simplify_feed_detail_like_icon_n.png",
-        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable-xxxhdpi-v4\\umeng_simplify_feed_detail_like_icon_n.png"
-    },
-    {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4\\umeng_simplify_find_like.png",
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable-xxxhdpi-v4\\umeng_simplify_find_like.png"
+    },
+    {
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4\\umeng_simplify_feed_detail_like_icon_n.png",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\drawable-xxxhdpi-v4\\umeng_simplify_feed_detail_like_icon_n.png"
     },
     {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4\\umeng_backward_white.png",

@@ -334,7 +334,6 @@
     <color name="umeng_text_common_selected_light">#81b0f0</color>
     <color name="umeng_topic_descrip">#a5a5a5</color>
     <color name="umeng_topic_title">#333333</color>
-    <declare-styleable name="RecyclerView"><attr format="string" name="layoutManager"/><attr name="android:orientation"/><attr format="integer" name="spanCount"/><attr format="boolean" name="reverseLayout"/><attr format="boolean" name="stackFromEnd"/></declare-styleable>
     <dimen name="action_bar_padding">50dp</dimen>
     <dimen name="albumitem_content_height">80dp</dimen>
     <dimen name="albumitem_height">100dp</dimen>
@@ -344,9 +343,6 @@
     <dimen name="image_item_heght">150dp</dimen>
     <dimen name="image_item_padding">3dp</dimen>
     <dimen name="image_item_space">3dp</dimen>
-    <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
-    <dimen name="item_touch_helper_swipe_escape_max_velocity">800dp</dimen>
-    <dimen name="item_touch_helper_swipe_escape_velocity">120dp</dimen>
     <dimen name="layout_title_content_heigh">30dp</dimen>
     <dimen name="layout_title_heigh">45dp</dimen>
     <dimen name="layout_title_heigh_img">90dp</dimen>
@@ -434,7 +430,6 @@
     <dimen name="umeng_comm_text_36px">18sp</dimen>
     <drawable name="umeng_color_color_drawable_a5">#a5a5a5</drawable>
     <drawable name="umeng_color_color_drawable_e1">#e1e1e1</drawable>
-    <item name="item_touch_helper_previous_elevation" type="id"/>
     <string name="app_name">umeng_community_library_project</string>
     <string name="umeng_comm_3rdparty_login">使用第三方账户登录</string>
     <string name="umeng_comm_account_setting">账号设置</string>

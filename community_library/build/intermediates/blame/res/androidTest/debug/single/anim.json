@@ -8,12 +8,12 @@
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_comm_pb_default.xml"
     },
     {
-        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_comm_translate_up_img.xml",
-        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_comm_translate_up_img.xml"
-    },
-    {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_comm_translate_down_img.xml",
         "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_comm_translate_down_img.xml"
+    },
+    {
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_comm_translate_up_img.xml",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_comm_translate_up_img.xml"
     },
     {
         "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_comm_dialog_out.xml",
