@@ -27,7 +27,6 @@ public class FeedbackActivity extends BaseActivity implements View.OnClickListen
     private EditText feedDesc;
     @ViewInject(R.id.feedBackSub_btn)
     private Button btnSubmit;
-
     private SosUser user;
 
     @Override

@@ -5,7 +5,7 @@ android {
         release{
             keyAlias 'SOSTV'
             keyPassword '1314520jiali'
-            storeFile file('D:/AndroidWorkspace/sostvapp/sostvappjks1.jks')
+            storeFile file('E:/androidProject/sostvapp/sostvappjks1.jks')
             storePassword '1314520jiali'
         }
     }
@@ -40,18 +40,17 @@ android {
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile files('libs/xutilslibrary.jar')
     compile files('libs/ksoap2-android-assembly-2.5.4-jar-with-dependencies.jar')
     compile project(':vitamio')
     compile 'com.umeng.analytics:analytics:latest.integration'
-    compile 'com.android.support:appcompat-v7:23.3.0'
     compile 'com.android.support:design:23.3.0'
     compile 'io.bxbxbai:common:1.2.7'
     compile 'com.facebook.stetho:stetho:1.1.0'
     compile 'com.facebook.stetho:stetho-urlconnection:1.1.0'
-    compile 'com.android.support:support-v4:24.0.0-alpha2'
     compile files('libs/libammsdk.jar')
     compile project(':PushSDK')
+    compile project(':community_library')
 }

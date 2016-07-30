@@ -14,6 +14,7 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.PopupWindow;
 import android.widget.RelativeLayout;
 import android.widget.SeekBar;
 import android.widget.TextView;
@@ -40,6 +41,10 @@ public class SostvMediaController extends MediaController {
 	private Activity activity;
 	private Context context;
 	private int controllerWidth = 0;// 设置mediaController高度为了使横屏时top显示在屏幕顶端
+	private int controllerHeight = 0;
+	private PopupWindow mWindow;
+	private View mAnchor;
+	private View mRoot;
 
 	private View mVolumeBrightnessLayout;
 	private ImageView mOperationBg;
@@ -89,12 +94,17 @@ public class SostvMediaController extends MediaController {
 		this.context = context;
 		this.videoView = videoView;
 		this.activity = activity;
-		WindowManager wm = (WindowManager) context
-				.getSystemService(Context.WINDOW_SERVICE);
+		WindowManager wm = (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
 
 
-		controllerWidth = wm.getDefaultDisplay().getWidth();
+		controllerWidth = videoView.getWidth();
+		controllerHeight = videoView.getHeight();
 		mGestureDetector = new GestureDetector(context,new SostvGestureListener());
+
+		mWindow = new PopupWindow(context);
+		mWindow.setFocusable(false);
+		mWindow.setBackgroundDrawable(null);
+		mWindow.setOutsideTouchable(true);
 	}
 
 	@Override
@@ -104,12 +114,12 @@ public class SostvMediaController extends MediaController {
 		}
 	}
 
-
 	@Override
 	protected View makeControllerView() {
 		View v = ((LayoutInflater) getContext().getSystemService(
 				Context.LAYOUT_INFLATER_SERVICE)).inflate(R.layout.sostv_media_controller, this);
-		v.setMinimumHeight(controllerWidth);
+		v.setMinimumWidth(controllerWidth);
+		v.setMinimumHeight(controllerHeight);
 		img_back = (ImageButton) v.findViewById(R.id.mediacontroller_top_back);
 		img_Battery = (ImageView) v
 				.findViewById(R.id.mediacontroller_imgBattery);
@@ -132,6 +142,7 @@ public class SostvMediaController extends MediaController {
 		return v;
 
 	}
+
 
 	@Override
 	public boolean dispatchKeyEvent(KeyEvent event) {
