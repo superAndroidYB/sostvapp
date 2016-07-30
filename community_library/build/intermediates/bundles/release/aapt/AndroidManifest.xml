@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.umeng_community_library_project"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="15" />
+
+    <application>
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="576e988c67e58e9040003afd" >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_MESSAGE_SECRET"
+            android:value="251656ee5de3a6f6f6afe5269bfedaf5" >
+        </meta-data>
+
+        <activity
+            android:name="com.umeng.simplify.ui.activities.FeedDetailActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity android:name="com.umeng.common.ui.activities.SettingActivity" />
+        <activity android:name="com.umeng.common.ui.activities.AlbumActivity" />
+        <activity android:name="com.umeng.common.ui.imagepicker.PhotoSelectorActivity" />
+        <activity android:name="com.umeng.common.ui.imagepicker.PhotoPreviewActivity" />
+        <activity
+            android:name="com.umeng.common.ui.activities.MessageChatActivity"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- 精简版 -->
+        <activity
+            android:name="com.umeng.simplify.ui.activities.FindActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.umeng.simplify.ui.activities.NewMsgActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.umeng.simplify.ui.activities.SettingActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.umeng.simplify.ui.activities.UserInfoActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.umeng.simplify.ui.activities.TopicDetailActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.umeng.simplify.ui.activities.PostFeedActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.umeng.common.ui.activities.LoginSimplifyActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustNothing" />
+        <activity
+            android:name="com.umeng.common.ui.activities.RegisterActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustNothing" />
+        <activity
+            android:name="com.umeng.simplify.ui.activities.FeedsActivity"
+            android:alwaysRetainTaskState="true"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.umeng.common.ui.activities.BrowserActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+    </application>
+
+</manifest>

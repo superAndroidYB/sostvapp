@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\umeng_comm_topic_toogle_color.xml",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\color\\umeng_comm_topic_toogle_color.xml"
+    },
+    {
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\umeng_comm_location_text.xml",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\color\\umeng_comm_location_text.xml"
+    },
+    {
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\umeng_comm_toogle_color.xml",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\color\\umeng_comm_toogle_color.xml"
+    },
+    {
+        "merged": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\umeng_switch_textcolor.xml",
+        "source": "E:\\androidProject\\sostvapp\\community_library\\build\\intermediates\\bundles\\debug\\res\\color\\umeng_switch_textcolor.xml"
+    }
+]
